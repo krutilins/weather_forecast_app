@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherForecast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="header__logo" href="/"><img src="/images/Weather.svg" alt="logo"></a>
+    <nav class="header__nav">
+      <ul class="header__links">
+        <li><input placeholder="Username" type="text" id="username"></input></li>
+        <li><input placeholder="Password" type="password" id="password"></input></li>
+        <li><button id="submit">Login</button></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#">Contact</a>
+    <p class="menu cta">Menu</p>
+  </header>
+  <div id="mobile__menu" class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+        <a href="#">Sign in</a>
+        <a href="#">Sign up</a>
+        <a href="#">Sign out</a>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__item">
+        <div class="add-city city-box">
+          <img src="images/add.png" alt="add" width="70px" height="70px" >
+        </div>
+      </div>
+    </div>
+  <a class="slider__control slider__control_left" href="#" role="button"></a>
+  <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+  </div>
+<!-- classes -->
+<script src="js/RequestAPI.js"></script>
+<script src="js/WeatherRequestAPI.js"></script>
+<script src="js/WeatherSlider.js"></script>
+
+<script src="js/Parameter.js"></script>
+<script src="js/Button.js"></script>
+<script src="js/UpperButtons.js"></script>
+<script src="js/MainInformation.js"></script>
+<script src="js/WrapperParams.js"></script>
+<script src="js/CItyBox.js"></script>
+
+<script src="js/AddCity.js"></script>
+<script src="js/MobileMenu.js"></script>
+
+<!-- scripts -->
+<script src="js/weather_ui.js"></script>
+</body>
+</html>

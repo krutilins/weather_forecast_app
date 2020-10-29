@@ -1,0 +1,54 @@
+@import "components/mob-nav";
+@import "components/buttons";
+@import "components/header";
+@import "components/city-box";
+@import "components/login";
+@import "components/slider";
+// @import "components/";
+// @import "components/";
+// @import "components/";
+// @import "components/";
+// @import "components/";
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html {
+font-size: 10px;
+}
+
+.body {
+color: #343E5C;
+line-height: normal;
+overflow-x: hidden;
+background: #1f1a25;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+// input, textarea, select, .input, .textarea, .select {
+// width: 100%;
+// display: block;
+// border-radius: 0.4rem;
+// border: 0.1rem solid transparent;
+// border-top-color: transparent;
+// border-right-color: transparent;
+// border-bottom-color: transparent;
+// border-left-color: transparent;
+// background: #D2DBE9;
+// font-family: "Nunito Sans",sans-serif;
+// font-size: 1.4rem;
+// padding: 1.2rem 0.5rem;
+// outline: none;
+// transition: 0.5s;
+// }
+
+.global-wrapper {
+display: flex;
+align-items: center;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "weather__forecast",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dollarpo8@bitbucket.org/krutilins/weather__forecast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/krutilins/weather__forecast#readme",
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlincluder": "^0.1.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
